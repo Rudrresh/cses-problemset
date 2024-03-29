@@ -1,9 +1,10 @@
 #include <bits/stdc++.h>
-#include <vector>
 typedef long long ll;
 
 using namespace std;
-
+// KEY IDEA : USE KADANE'S ALGORITHM -> O(N) TIME COMPLEXITY
+// WE READ THE LONG INT AND WE PUSH TO THE VECTOR,
+// THE MAX OF THE NUMBER AND THE SUM OF THE NUMBER AND THE ELEMENT IN THE BACK OF THE VECTOR
 int main() {
     ios::sync_with_stdio(0);
     cin.tie(0);
